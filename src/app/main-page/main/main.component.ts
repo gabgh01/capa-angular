@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main.component.scss'],
 })
 export class MainComponent implements OnInit {
-  title: string = 'capacitacion angular';
-  listUser:any = [
+  title: string = 'Eduardo Love';
+  listUser: any = [
     { name: 'pepito perez', nickname: 'el pepe', email: 'elppepe@gmail.com' },
     { name: 'pepita perez', nickname: 'el pepa', email: 'elpepa@gmail.com' },
     { name: 'juanita perez', nickname: 'nita', email: 'elnita@gmail.com' },
@@ -15,7 +15,5 @@ export class MainComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {
-    
-  }
+  ngOnInit(): void {}
 }

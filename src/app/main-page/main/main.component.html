@@ -1,8 +1,4 @@
-<p>
-  <mat-toolbar color="primary">
-    <span>My Application</span>
-  </mat-toolbar>
-</p>
+<app-toolbar [title]="title" [color]="'accent'"></app-toolbar>
 <div *ngFor="let user of listUser; let i = index">
   <p>{{ i }} {{ user.name }}</p>
 </div>
