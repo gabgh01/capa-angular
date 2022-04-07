@@ -1,3 +1,8 @@
-<p>{{ title }}</p>
-
-<p *ngIf="true">Hola</p>
+<p>
+  <mat-toolbar color="primary">
+    <span>My Application</span>
+  </mat-toolbar>
+</p>
+<div *ngFor="let user of listUser; let i = index">
+  <p>{{ i }} {{ user.name }}</p>
+</div>

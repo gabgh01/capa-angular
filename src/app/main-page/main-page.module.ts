@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { SharedModule } from '../shared/shared.module';
 import { MainComponent } from './main/main.component';
-import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [MainComponent],
-  imports: [CommonModule],
+  imports: [CommonModule, SharedModule],
 })
 export class MainPageModule {}
